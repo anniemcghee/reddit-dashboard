@@ -10,7 +10,7 @@ On reddit you can simply add ".json" to the end of a url to request json data. R
 
 ####URL -- Search for "cats"
 
-[http://www.reddit.com/search.json?q=taco](http://www.reddit.com/search.json?q=cats)
+[http://www.reddit.com/search.json?q=cats](http://www.reddit.com/search.json?q=cats)
 
 ####Parameter overview
 
