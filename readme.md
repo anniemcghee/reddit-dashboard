@@ -80,6 +80,8 @@ Same as the search api... we just add a ".json" to the permalink.
 [http://www.reddit.com/r/cats/comments/1vimf5/cat_booping_my_nose_how_the_tables_have_turned.json](http://www.reddit.com/r/cats/comments/1vimf5/cat_booping_my_nose_how_the_tables_have_turned.json)
 
 
+**NOTE:** You cannot load local data via ajax. That means you cannot just open the .html file in your browser you need to use `srv` and load it via http://localhost:3000
+
 ##Extra bonus
 
 Make the comments load recursively to display comments on comments. Maybe look at ngInclude to "roll your own" or look at a [tree directive](https://www.google.com/search?q=angular+tree+directive&oq=angular+tree+directive&aqs=chrome..69i57j0l3j69i60l2.3351j0j4&sourceid=chrome&es_sm=91&ie=UTF-8).
